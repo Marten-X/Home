@@ -1,0 +1,40 @@
+form {
+    height: 60vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.contact-heading {
+    font-size: 48px;
+    position: absolute;
+    transform: translate(-85vh,-20vh);
+    }
+form label {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+form div textarea {
+    width: 90%;
+    height: 12vh;
+    }
+form div.user-contact div {
+    margin: 30px;
+}
+form div.user-contact div input {
+    width: 100%; 
+}
+form div.user-message {
+    width: 40%;
+    transform: translateY(35px);
+}
+form div.user-message input,form div.user-message textarea {
+    margin: 5px;
+}
+
+
+.flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    }
