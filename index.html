@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Maken</title>
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/hero.css">
+    <link rel="stylesheet" href="css/home.css">
+    <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/skill.css">
+    <link rel="stylesheet" href="css/contact.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/fontawesome.css">
+    <link rel="stylesheet" href="bootstrap-5.3.7-dist/css/bootstrap.min.css">
+</head>
+<body>
+    <nav class="custom-navbar">
+        <ul>
+            <li><a class="link-info fw-bold" href="#home">HOME</a></li>
+            <li><a class="link-info fw-bold" href="#about">ABOUT</a></li>
+            <li><a class="link-info fw-bold" href="#skill">SKILLS</a></li>
+            <li><a class="link-info fw-bold" href="#contact">CONTACT</a></li>
+        </ul> 
+    </nav>
+    <div class="light-dark-mode">
+        <p class="light-dark-icon"><i class="fa-solid fa-moon" id="ldmode"></i></p>
+    </div>
+    <nav class="custom-navbar-burger">
+        <button class="hamburger" style="border: none; background-color: transparent"><i class="bar-icon fa-solid fa-bars"></i></button>
+        <ul class="custom-nav-menu">
+            <li><a class="link-info fw-bold" href="#home">HOME</a></li>
+            <li><a class="link-info fw-bold" href="#about">ABOUT</a></li>
+            <li><a class="link-info fw-bold" href="#skill">SKILLS</a></li>
+            <li><a class="link-info fw-bold" href="#contact">CONTACT</a></li>
+        </ul> 
+    </nav>
+    <main id="main">
+        <section id="home">
+            <h2>Aspiring Web designer</h2>
+            <h1 class="intro-header">Hello,My name is Marten</h1>
+            <p>You don't have far to go. To go far.</p>
+            <button class="btn btn-outline-info"><a href="#about">About Me</a></button>
+        </section>
+        <section id="about">
+            <article>I am a passionate Full-Stack Developer with 1 years of experience, evolving from a Junior Developer at a tech firm to a Lead Engineer. My core philosophy is bridging cutting-edge technology with practical business goals.</article>
+        <!-- ending of about section -->
+        </section>
+        <section id="skill">
+            <h2 class="text-info" style="margin: 50px">My Skills & Expertise</h2>
+            <div class="skill-domain">
+                <div class="skills-category">
+                    <h3 class="text-primary">Frontend Development</h3>
+                    <ul>
+                        <li class="fa-icons"><span><i class="fa-brands fa-html5" style="color:orange"></i><i class="fa-brands fa-css3-alt" style="color:blue"></i><i class="fa-brands fa-js"style="color:yellow"></i><i class="fa-brands fa-bootstrap" style="color: darkblue"></i></span></li>
+                        <li>HTML5,CSS3 (Sass/SCSS, BEM)</li>
+                        <li>JavaScript (ES6+)</li>
+                        <li>Responsive Design & Mobile-First Development</li>
+                        <li>Bootstrap / Tailwind CSS</li>
+                    </ul>
+                </div>
+
+                <div class="skills-category">
+                    <h3 class="text-primary">Backend Development</h3>
+                    <ul>
+                        <li class="fa-icons"><span><i class="fa-brands fa-python"></i><i class="fa-brands fa-php" style="color:violet"></i></span></li>
+                        <li>Python (Django, Flask) / PHP (Laravel)
+                        <li>Unit Testing (Jest, Mocha)</li>
+                    </ul>
+                </div>
+                <div class="skills-category">
+                    <h3 class="text-primary">Database Management</h3>
+                    <ul>
+                        <li class="fa-icons"><span><i class="fa-solid fa-database" style="color:blue"></i></span></li>
+                        <li>SQL (MySQL)</li>
+                        <li>NoSQL (MongoDB)</li>
+                        <li>Database Design & Optimization</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3 class="text-primary">Tools & Platforms</h3>
+                    <ul>
+                        <li class="fa-icons"><span><i class="fa-brands fa-git"></i><i class="fa-brands fa-github"></i></span></li>
+                        <li>Git & GitHub/GitLab</li>
+                        <li>VS Code</li>
+                    </ul>
+                </div>
+            
+                <div class="skills-category">
+                    <h3 class="text-primary">Soft Skills</h3>
+                    <ul>
+                        <li>Problem-Solving & Debugging</li>
+                        <li>Team Collaboration & Communication</li>
+                        <li>Continuous Learning</li>
+                        <li>Time Management & Organization</li>
+                    </ul>
+                </div>
+            </div>
+        <!-- ending of skill section -->
+        </section>
+    </main>
+    <footer id="contact">
+        <form id="contactForm">
+            <h2 class="contact-heading text-black-50">Contact</h2>
+            <div class="user-contact flex-center">
+                <div class="user-contact-name">
+                    <label for="name">Name: </label>
+                    <input type="text" id="name"><br>
+                </div>
+                <div class="user-contact-email">
+                    <label for="email">Email: </label>
+                    <input type="email" id="email"><br>
+                </div>
+            </div>
+            <div class="user-message flex-center">
+                <textarea placeholder="Message:" id="message"></textarea><br>
+                <button class="btn btn-success" type="submit">Submit</button>
+            </div>
+        </form>
+    </footer>
+    <script src="bootstrap-5.3.7-dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/toggle-bar.js"></script>
+    <script src="js/darkmode.js"></script>
+    <script src="js/language-selector.js"></script>
+    <script src="js/form-persistence.js"></script>
+    <script src="js/char-limit.js"></script>
+</body>
+</html>

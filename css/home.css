@@ -1,0 +1,32 @@
+section#home {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;    
+}
+section#home button {
+    width: 200px;
+    height: 50px;
+}
+section#home h1,
+section#home h2,
+section#home p,
+section#home button {
+    text-align: center;
+    margin: 30px;
+}
+section#home h2 {
+    font-size: 28px;
+    color: #666;
+}
+section#home h1 {
+    font-size: 36px;
+    color: #333;
+}
+section#home p {
+    font-size: 24px;
+    font-style: italic;
+    color: #555;
+}
